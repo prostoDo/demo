@@ -1,14 +1,122 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+   "id": "1",
+   "name": "Думай и богатей",
+   "author": "Наполеон Хилл",
+   "price": "890",
+   "genre": "2",
+   "image": "./img/books/book1.jpg"
+  },
+  {
+   "id": "2",
+   "name": "Атлант расправил плечи(три тома в одной книге)",
+   "author": "Айн Рэнд ",
+   "price": "990",
+   "genre": "1",
+   "image": "./img/books/book2.jpg"
+  },
+  {
+   "id": "3",
+   "name": "Правило в 10 раз больше",
+   "author": "Грант Кардон",  
+   "price": "1100",
+   "genre": "2",
+   "image": "./img/books/book3.jpg"
+  },
+  {
+   "id": "4",
+   "name": "Мартин Иден",
+   "author": "Джек Лондон",
+   "price": "349",
+   "genre": "1",
+   "image": "./img/books/book4.jpg"
+  },
+  {
+   "id": "5",
+   "name": "Чистый код: создание, анализ и рефакторинг",
+   "author": "Роберт Мартин",
+   "price": "959",
+   "genre": "5",
+   "image": "./img/books/book5.jpg"
+  },
+  {
+   "id": "6",
+   "name": "Грокаем алгоритмы",
+   "author": "Адитья Бхаргава",
+   "price": "1016",
+   "genre": "5",
+   "image": "./img/books/book6.jpg"
+  },
+  {
+   "id": "7",
+   "name": "Маугли",
+   "author": "Редьярд Киплинг",
+   "price": "680",
+   "genre": "3",
+   "image": "./img/books/book7.jpg"
+  },
+  {
+   "id": "8",
+   "name": "Таинственный остров",
+   "author": "Жюль Верн",
+   "price": "257",
+   "genre": "1",
+   "image": "./img/books/book8.jpg"
+  },
+  {
+   "id": "9",
+   "name": "Просто делай! Делай просто!",
+   "author": "Оскар Хартманн",
+   "price": "1150",
+   "genre": "2",
+   "image": "./img/books/book9.jpg"
+  },
+  {
+   "id": "10",
+   "name": "Приключения Тома Сойера",
+   "author": "Марк Твен",
+   "price": "474",
+   "genre": "3",
+   "image": "./img/books/book10.jpg"
+  },
+  {
+   "id": "11",
+   "name": "Краткая история времени: от Большого взрыва до черных дыр",
+   "author": "Стивен Хокинг",
+   "price": "912",
+   "genre": "4",
+   "image": "./img/books/book11.jpg"
+  },
+  {
+   "id": "12",
+   "name": "Граф Монте-Кристо",
+   "author": "Александр Дюма",
+   "price": "325",
+   "genre": "1",
+   "image": "./img/books/book12.jpg"
+  },
+  {
+   "id": "13",
+   "name": "К черту все! Берись и делай!",
+   "author": "Ричард Брэнсон",
+   "price": "950",
+   "genre": "2",
+   "image": "./img/books/book13.jpg"
+  },
+  {
+   "id": "14",
+   "name": "Малыш и Карлсон, который живет на крыше: сказочная повесть",
+   "author": "Астрид Линдгрен",
+   "price": "946",
+   "genre": "3",
+   "image": "./img/books/book14.jpg"
+  },
+  {
+   "id": "15",
+   "name": "JavaScript с нуля",
+   "author": "Кирупа Чиннатхамби",
+   "price": "1525",
+   "genre": "5",
+   "image": "./img/books/book15.jpg"
   }
-}
+ ]
