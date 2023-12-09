@@ -1,122 +1,213 @@
 {
-  "books": [{
-   "id": "1",
-   "name": "Думай и богатей",
-   "author": "Наполеон Хилл",
-   "price": "890",
-   "genre": "2",
-   "image": "./img/books/book1.jpg"
-  },
-  {
-   "id": "2",
-   "name": "Атлант расправил плечи(три тома в одной книге)",
-   "author": "Айн Рэнд ",
-   "price": "990",
-   "genre": "1",
-   "image": "./img/books/book2.jpg"
-  },
-  {
-   "id": "3",
-   "name": "Правило в 10 раз больше",
-   "author": "Грант Кардон",  
-   "price": "1100",
-   "genre": "2",
-   "image": "./img/books/book3.jpg"
-  },
-  {
-   "id": "4",
-   "name": "Мартин Иден",
-   "author": "Джек Лондон",
-   "price": "349",
-   "genre": "1",
-   "image": "./img/books/book4.jpg"
-  },
-  {
-   "id": "5",
-   "name": "Чистый код: создание, анализ и рефакторинг",
-   "author": "Роберт Мартин",
-   "price": "959",
-   "genre": "5",
-   "image": "./img/books/book5.jpg"
-  },
-  {
-   "id": "6",
-   "name": "Грокаем алгоритмы",
-   "author": "Адитья Бхаргава",
-   "price": "1016",
-   "genre": "5",
-   "image": "./img/books/book6.jpg"
-  },
-  {
-   "id": "7",
-   "name": "Маугли",
-   "author": "Редьярд Киплинг",
-   "price": "680",
-   "genre": "3",
-   "image": "./img/books/book7.jpg"
-  },
-  {
-   "id": "8",
-   "name": "Таинственный остров",
-   "author": "Жюль Верн",
-   "price": "257",
-   "genre": "1",
-   "image": "./img/books/book8.jpg"
-  },
-  {
-   "id": "9",
-   "name": "Просто делай! Делай просто!",
-   "author": "Оскар Хартманн",
-   "price": "1150",
-   "genre": "2",
-   "image": "./img/books/book9.jpg"
-  },
-  {
-   "id": "10",
-   "name": "Приключения Тома Сойера",
-   "author": "Марк Твен",
-   "price": "474",
-   "genre": "3",
-   "image": "./img/books/book10.jpg"
-  },
-  {
-   "id": "11",
-   "name": "Краткая история времени: от Большого взрыва до черных дыр",
-   "author": "Стивен Хокинг",
-   "price": "912",
-   "genre": "4",
-   "image": "./img/books/book11.jpg"
-  },
-  {
-   "id": "12",
-   "name": "Граф Монте-Кристо",
-   "author": "Александр Дюма",
-   "price": "325",
-   "genre": "1",
-   "image": "./img/books/book12.jpg"
-  },
-  {
-   "id": "13",
-   "name": "К черту все! Берись и делай!",
-   "author": "Ричард Брэнсон",
-   "price": "950",
-   "genre": "2",
-   "image": "./img/books/book13.jpg"
-  },
-  {
-   "id": "14",
-   "name": "Малыш и Карлсон, который живет на крыше: сказочная повесть",
-   "author": "Астрид Линдгрен",
-   "price": "946",
-   "genre": "3",
-   "image": "./img/books/book14.jpg"
-  },
-  {
-   "id": "15",
-   "name": "JavaScript с нуля",
-   "author": "Кирупа Чиннатхамби",
-   "price": "1525",
-   "genre": "5",
-   "image": "./img/books/book15.jpg"
-  }]
+  "books": [
+    {
+      "id": "1",
+      "name": "Приключения Тома Сойера",
+      "author": "Марк Твен",
+      "genre": "Детская литература",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/26/593/2659383.jpg",
+      "publishingHouse": "АСТ",
+      "publishYear": "2022",
+      "editioncount": "29000",
+      "countPage": "320",
+      "weight": "500",
+      "coverType": "1"
+    },
+    {
+      "id": "2",
+      "name": "Просто делай! Делай просто!",
+      "author": "Оскар Хартманн",
+      "genre": "Деловая литература",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/27/754/2775430.jpg",
+      "publishingHouse": "Эксмо",
+      "publishYear": "2021",
+      "editionСount": "2000",
+      "countPage": "336",
+      "weight": "699",
+      "coverType": "1"
+    },
+    {
+      "id": "3",
+      "name": "Атлант расправил плечи (три тома в одной книге)",
+      "author": "Айн Рэнд",
+      "genre": "Художественная литература",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/22/754/2275421.jpg",
+      "publishingHouse": "Альпина Паблишер",
+      "publishYear": "2018",
+      "editionСount": "20000",
+      "countPage": "1131",
+      "weight": "850",
+      "coverType": "1"
+    },
+    {
+      "id": "4",
+      "name": "Поваренная книга Гарри Поттера : более 150 волшебных рецептов для маглов и волшебников",
+      "author": "Дина Бухольц",
+      "genre": "Кулинария",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/27/006/2700681.jpg",
+      "publishingHouse": "ХлебСоль",
+      "publishYear": "2022",
+      "editionСount": "2300",
+      "countPage": "231",
+      "weight": "350",
+      "coverType": "1"
+    },
+    {
+      "id": "5",
+      "name": "Бессмертный Халк. Полное собрание. Том 3",
+      "author": "Эл Юинг",
+      "genre": "Комиксы",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/30/181/3018106-1.jpg",
+      "publishingHouse": "Комильфо",
+      "publishYear": "2021",
+      "editionСount": "2000",
+      "countPage": "248",
+      "weight": "908",
+      "coverType": "1"
+    },
+    {
+      "id": "6",
+      "name": "Знакомьтесь, Python. Секреты профессии",
+      "author": "Евгений Павлов",
+      "genre": "Наука и техника",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/30/062/3006238-3.jpg",
+      "publishingHouse": "АСТ",
+      "publishYear": "2023",
+      "editionСount": "5000",
+      "countPage": "391",
+      "weight": "643",
+      "coverType": "2"
+    },
+    {
+      "id": "7",
+      "name": "Мартин Иден",
+      "author": "Джек Лондон",
+      "genre": "Художественная литература",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/24/475/2447550-4.jpg",
+      "publishingHouse": "Neoclassic",
+      "publishYear": "2022",
+      "editionСount": "7000",
+      "countPage": "448",
+      "weight": "230",
+      "coverType": "2"
+    },
+    {
+      "id": "8",
+      "name": "Камасутра для оратора.",
+      "author": "Радислав Гандапас",
+      "genre": "Деловая литература",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/22/404/2240499_1.jpg",
+      "publishingHouse": "Манн, Иванов и Фербер",
+      "publishYear": "2021",
+      "editionСount": "2979",
+      "countPage": "272",
+      "weight": "400",
+      "coverType": "1"
+    },
+    {
+      "id": "9",
+      "name": "Гарри Поттер и Орден Феникса",
+      "author": "Джоан Кэтлин Роулинг",
+      "genre": "Детская литература",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/24/511/2451179.jpg",
+      "publishingHouse": "Махаон",
+      "publishYear": "2022",
+      "editionСount": "10000",
+      "countPage": "896",
+      "weight": "759",
+      "coverType": "1"
+    },
+    {
+      "id": "10",
+      "name": "Мистер Вечный Канун. Поваренная книга для Хэллоуина",
+      "author": "Татьяна Андреева",
+      "genre": "Кулинария",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/29/874/2987430-1.jpg",
+      "publishingHouse": "Манн, Иванов и Фербер",
+      "publishYear": "2023",
+      "editionСount": "5000",
+      "countPage": "196",
+      "weight": "668",
+      "coverType": "1"
+    },
+    {
+      "id": "11",
+      "name": "С++ - это просто",
+      "author": "Яшавант Канеткар",
+      "genre": "Наука и техника",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/29/868/2986848_2.jpg",
+      "publishingHouse": "BHV-CПб",
+      "publishYear": "2023",
+      "editionСount": "335",
+      "countPage": "196",
+      "weight": "440",
+      "coverType": "2"
+    },
+    {
+      "id": "12",
+      "name": "Новые Мстители. Полное собрание. Том 1",
+      "author": "Брайан Бендис",
+      "genre": "Комиксы",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/29/546/2954649.jpg",
+      "publishingHouse": "Эксмо",
+      "publishYear": "2021",
+      "editionСount": "5000",
+      "countPage": "188",
+      "weight": "440",
+      "coverType": "2"
+    },
+    {
+      "id": "13",
+      "name": "Правило в 10 раз больше",
+      "author": "Грант Кардон",
+      "genre": "Бизнес литература",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/25/280/2528084.jpg",
+      "publishingHouse": "ИПЦ Маска",
+      "publishYear": "2018",
+      "editionСount": "1000",
+      "countPage": "182",
+      "weight": "419",
+      "coverType": "1"
+    },
+    {
+      "id": "14",
+      "name": "Великий Гэтсби",
+      "author": "Френсис Скотт Фицджеральд ",
+      "genre": "Художественная литература",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/24/597/2459704.jpg",
+      "publishingHouse": "Neoclassic",
+      "publishYear": "2022",
+      "editionСount": "5200",
+      "countPage": "347",
+      "weight": "311",
+      "coverType": "2"
+    },
+    {
+      "id": "15",
+      "name": "48 законов власти",
+      "author": "Роберт Грин ",
+      "genre": "Деловая литература",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/27/874/2787400.jpg",
+      "publishingHouse": "Рипол-Классик",
+      "publishYear": "2022",
+      "editionСount": "5200",
+      "countPage": "304",
+      "weight": "420",
+      "coverType": "1"
+    },
+    {
+      "id": "16",
+      "name": "Кухня Джейми более 100 рецептов",
+      "author": "Кухня Джейми более 100 рецептов",
+      "genre": "Кулинария",
+      "image": "https://cdn.img-gorod.ru/310x500/nomenclature/21/312/2131222.jpg",
+      "publishingHouse": "КукБукс",
+      "publishYear": "2010",
+      "editionСount": "1000",
+      "countPage": "334",
+      "weight": "1289",
+      "coverType": "1"
+    }
+  ]
 }
+
